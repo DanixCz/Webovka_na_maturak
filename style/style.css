@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 body ,html{
     margin: 0px;
-    font-family: "Story Script", sans-serif;
-    font-style: normal;
+    font-family: "EB Garamond", serif;
     scroll-behavior: smooth;
     /* Přidáme scroll snapping na ose y */
     scroll-snap-type: y mandatory;
@@ -13,8 +12,7 @@ body ,html{
 
 header{
     display: flex;
-    background-color: whitesmoke;
-    opacity: 70%;
+    background-color: rgba(48, 48, 48, 0.7);
     justify-content: right;
     height: 100px;
     width: 100%;
@@ -31,21 +29,34 @@ header{
 
 h1{
     color: white;
-    font-size: 32px;
-    text-shadow: 0px 1px 4px black;
+    font-size: 90px;
+    text-shadow: 0px 0px 8px rgb(250, 221, 57);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2{
+    color: rgb(255,215,0);
+    font-size: 50px;
+    text-shadow: 0px 0px 8px rgb(250, 221, 57);
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 a{
-    color: rgb(218,165,32);
+    color: rgb(255,215,0);
     text-decoration: none;
-    text-shadow: 0px 0px 4px rgb(212,175,55);
+    text-shadow: 0px 0px 6px rgb(250, 221, 57);
     font-weight: bold;
 }
 
 .Pages {
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background: #000000;
+    background: radial-gradient(circle,rgba(0, 0, 0, 1) 66%, rgba(255, 215, 0, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,14 +66,8 @@ a{
     scroll-snap-align: start;
 }
 
-#Page1{
-    background-image: url(/Pictures/22-casino.jpg);
-}
-
-#Page2{
-    background-image: url(/Pictures/ObamaPrism2.webp);
-}
-
-#Page3{
-    background-image: url(/Pictures/ObamaPrism3.webp);
+.d1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
