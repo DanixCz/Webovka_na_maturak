@@ -12,9 +12,10 @@ body ,html{
 
 header{
     display: flex;
-    background-color: rgba(48, 48, 48, 0.7);
+    background: #F6E9A2;
+    background: linear-gradient(0deg, rgba(246, 233, 162, 0.9) 0%,rgba(188, 130, 31, 0.9) 100%);
     justify-content: right;
-    height: 100px;
+    height: 125px;
     width: 100%;
     position: fixed;
 }
@@ -29,34 +30,42 @@ header{
 
 h1{
     color: white;
-    font-size: 90px;
-    text-shadow: 0px 0px 8px rgb(250, 221, 57);
+    font-size: 120px;
+    text-shadow: 0px 0px 8px #bc821f;
     display: flex;
     justify-content: center;
     margin: 10px;
 }
 
 h2{
-    color: rgb(255,215,0);
-    font-size: 50px;
-    text-shadow: 0px 0px 8px rgb(250, 221, 57);
+    color: #f6e9a2;
+    font-size: 80px;
+    text-shadow: 0px 0px 8px #bc821f;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+h3{
+    color: #f6e9a2;
+    font-size: 60px;
+    text-shadow: 0px 0px 8px #bc821f;
     display: flex;
     justify-content: center;
     margin: 10px;
 }
 
 a{
-    color: rgb(255,215,0);
+    color: white;
     text-decoration: none;
-    text-shadow: 0px 0px 6px rgb(250, 221, 57);
+    text-shadow: 0px 0px 6px #bc821f;
     font-weight: bold;
 }
 
 .Pages {
     width: 100%;
     height: 100vh;
-    background: #000000;
-    background: radial-gradient(circle,rgba(0, 0, 0, 1) 66%, rgba(255, 215, 0, 1) 100%);
+    background: rgb(29, 29, 29);
     display: flex;
     justify-content: center;
     align-items: center;
