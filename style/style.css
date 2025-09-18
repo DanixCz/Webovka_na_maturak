@@ -18,6 +18,7 @@ header{
     height: 125px;
     width: 100%;
     position: fixed;
+    box-shadow: 0px 0px 9px 5px rgba(246, 233, 162, 1);
 }
 
 .Navigation{
@@ -55,6 +56,38 @@ h3{
     margin: 10px;
 }
 
+h4{
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 0px 5px #bc821f;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+}
+
+.h4{
+    margin-bottom: 0px;
+}
+
+h5{
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #bc821f;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+li{
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 0px 5px #bc821f;
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -65,18 +98,26 @@ a{
 .Pages {
     width: 100%;
     height: 100vh;
-    background: rgb(29, 29, 29);
+    background: rgb(17, 17, 17);
     display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* Toto zajistí, že každá sekce se zachytí při posunutí */
+    flex-direction: column;
     scroll-snap-align: start;
 }
 
 .d1{
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.d2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
 }
